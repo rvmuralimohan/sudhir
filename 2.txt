@@ -1,1 +1,2 @@
 this is file created for testing status command
+new line has been added 
