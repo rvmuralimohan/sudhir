@@ -2,3 +2,4 @@ this is file created for testing status command
 new line has been added 
 this new line added in command mode 
 
+
