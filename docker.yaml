@@ -1,0 +1,11 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+    - name: build docker images
+      docker_image:
+         name: httpd_jenkins
+         build:
+            path: /Dockerfile
+            source: build
+         state: present 
