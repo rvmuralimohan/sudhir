@@ -1,0 +1,10 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+     - name: install tenlet pacakge
+       yum: 
+         name: telnet
+         state: present 
+         
+         
