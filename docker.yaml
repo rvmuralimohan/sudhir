@@ -6,6 +6,5 @@
       docker_image:
          name: httpd_jenkins
          build:
-            path: /Dockerfile
-            source: build
-         state: present 
+           path: docker
+           state: build
